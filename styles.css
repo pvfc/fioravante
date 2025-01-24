@@ -1,0 +1,79 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    margin: 0;
+}
+
+/* Estilo da lápide */
+.lapide {
+    width: 400px;
+    height: 800px;
+    background: #ddd;
+    border: 5px solid #423d3d;
+    border-radius: 55px;
+    box-shadow: 0px 4px 10px rgba(233, 230, 230, 0.3);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Paisagem de fundo */
+.paisagem {
+    position: absolute;
+    width: 110%;
+    height: 120%;
+    background: url('pexels-arlindphotography-25491342.jpg') no-repeat center center / cover;
+    z-index: 1;
+}
+
+/* Foto do falecido */
+.foto-container {
+    position: relative;
+    margin-top: -60px;
+    z-index: 2;
+    height: 47%;  /* altura da Foto */
+}
+
+.foto {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+}
+
+/* Informações */
+.info {
+    background: rgba(7, 7, 7, 0.6);
+    padding: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.info .datas {
+    font-size: 16px;
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.info .mensagem {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
