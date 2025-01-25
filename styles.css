@@ -39,7 +39,7 @@ body {
     position: relative;
     margin-top: -60px;
     z-index: 2;
-    height: 47%;  /* altura da Foto */
+    height: 40%;  /* altura da Foto */
 }
 
 .foto {
