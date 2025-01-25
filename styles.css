@@ -28,7 +28,7 @@ body {
 /* Paisagem de fundo */
 .paisagem {
     position: absolute;
-    width: 110%;
+    width: 119%;
     height: 120%;
     background: url('pexels-arlindphotography-25491342.jpg') no-repeat center center / cover;
     z-index: 1;
