@@ -53,8 +53,8 @@ body {
 
 /* Informações */
 .info {
-    background: rgba(20, 20, 20, 0.6);
-    padding: 16px;
+    background: rgba(43, 38, 38, 0.6);
+    padding: 15px;
     color: white;
     z-index: 2;
 }
