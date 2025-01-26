@@ -28,9 +28,9 @@ body {
 /* Paisagem de fundo */
 .paisagem {
     position: absolute;
-    width: 119%;
-    height: 120%;
-    background: url('pexels-arlindphotography-25491342.jpg') no-repeat center center / cover;
+    width: 110%;
+    height: 110%;
+    background: url('e9f4cb14-3b04-4108-8e9c-5acfe9bb9b1c.jpeg') no-repeat center center / cover;
     z-index: 1;
 }
 
@@ -39,7 +39,7 @@ body {
     position: relative;
     margin-top: -60px;
     z-index: 2;
-    height: 35%;  /* altura da Foto */
+    height: 29%;  /* altura da Foto */
 }
 
 .foto {
