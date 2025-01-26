@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fotos</title>
+    <title>Álbum de Fotos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 4px 0;
+        }
+
+        .album {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Layout responsivo */
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .foto {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .foto img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .foto:hover img {
+            transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+        }
+
+        .foto p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .foto:hover p {
+            opacity: 1; /* Mostra a legenda ao passar o mouse */
+        }
+    </style>
 </head>
 <body>
-    <h1>ola mundo</h1>
+    <header>
+        <h1>Álbum de Fotos</h1>
+        <p>Veja algumas das nossas melhores lembranças</p>
+    </header>
+
+    <section class="album">
+        <div class="foto">
+            <img src="fotos/0ccef47e-e546-44eb-a0a1-79d9d884c02a.jpeg" alt="Foto 1">
+            <p>Legenda da Foto 1</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/8ba2f7e8-b660-4e3b-a8c4-aa39e2755a41.jpeg" alt="Foto 2">
+            <p>Legenda da Foto 2</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/8e6ec3bb-fcf0-4ff2-84e7-d13cf03f4fde.jpeg" alt="Foto 3">
+            <p>Legenda da Foto 3</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/32a52e39-b078-49ba-84e1-b64ca0bee968.jpeg" alt="Foto 4">
+            <p>Legenda da Foto 4</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/49ba8f02-0f6b-4d93-8078-69b3e9ddf383.jpeg" alt="Foto 5">
+            <p>Legenda da Foto 5</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/57b6e02d-1eed-4246-b1ab-7240352d1101.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 6</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/75b4c848-9263-41f4-a082-48aea4fb9399.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 7</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/384ae08a-8cb5-4451-9e34-81203da0dd1a.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 8</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/396f0f2a-83d4-45f7-b007-e980eef7b8f1.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 9</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/3373e7ea-3259-4afb-a6c6-546cb893e0f2.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 10</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/6353cde2-0048-466d-8729-3cff5c45da1a.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 11</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/64679e78-ba4a-4ff0-8704-385d8c536266.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 12</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/e7018f62-741e-49cf-9232-e428d2d819ad.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 13</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/ea62e547-1476-4a73-8a70-c31e654769fa.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 14</p>
+        </div>
+        <div class="foto">
+            <img src="fotos/eff6aade-82a5-4847-847c-c2f45dab4a3c.jpeg" alt="Foto 6">
+            <p>Legenda da Foto 15</p>
+        </div>
+        
+    </section>
 </body>
 </html>
